@@ -80,13 +80,9 @@ public class Sta_Fragment_1 extends Fragment {
                     FragmentManager fragmentManager =getParentFragmentManager();
                     fragmentManager.setFragmentResult("test",bundle);
                 }
-
             }
         });
-
-
-
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sta__1, container, false);
+        return view;
     }
 }
