@@ -23,11 +23,16 @@
         <fragment
             android:id="@+id/sta_fragment_1"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            tools:layout="@layout/fragment_sta__1"
+            android:name="vlu.android.demofragment_lab6_01.Sta_Fragment_1"
+            />
         <fragment
             android:id="@+id/sta_fragment_2"
             android:layout_width="match_parent"
-            android:layout_height="300dp"/>
+            android:layout_height="300dp"
+            tools:layout="@layout/fragment_sta__2"
+            android:name="vlu.android.demofragment_lab6_01.Sta_Fragment_2"/>
     </LinearLayout>
 
 
